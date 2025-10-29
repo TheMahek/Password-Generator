@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #458fff;
+  background-color: #A0E4DC;
   color: #111;
   font-family: "Muli", sans-serif;
   display: flex;
@@ -68,12 +68,22 @@ h2 {
 
 .btn {
   border: none;
-  background-color: #458fff;
+  background-color: #A0E4DC;
   border-radius: 5px;
-  color: #fff;
+  color: #1a1a1a; /* 🩵 Darker text for better visibility */
+  font-weight: 600;
   font-size: 16px;
   padding: 8px 12px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/*Hover effect */
+.btn:hover {
+  background-color: #8ed3cc;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  color: #000; /* Darker text on hover */
 }
 
 .btn-large {
